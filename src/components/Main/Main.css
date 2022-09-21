@@ -1,0 +1,67 @@
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main .randomName, main .randomNumber{
+    background-color: white;
+    border-radius: .5em;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 0 1em rgba(0,0,0,.2);
+}
+
+.randomName textarea{
+    resize: none;
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: rgb(223, 223, 223);
+    width: 30em;
+    height: 10em;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border-radius: .5em;
+    margin: .2em .5em;
+    border: none;
+    width: 47%;
+    height: 3em;
+    font-weight: bold;
+}
+
+.add{
+    background-color: rgb(0, 146, 0);
+    color: white;
+}
+
+.add:hover{
+    cursor: pointer;
+    background-color: rgb(0, 175, 0);
+}
+
+.clear{
+    background-color: rgb(146, 0, 0);
+    color: white;
+}
+
+.clear:hover{
+    cursor: pointer;
+    background-color: rgb(175, 0, 0);
+}
+
+.randomNumber{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

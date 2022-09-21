@@ -1,0 +1,26 @@
+footer{
+    text-align: center;
+}
+
+code{
+    background-color: rgba(1,1,1,.1);
+    padding: .5em;
+    border-radius: .5em;
+    font-size: 1.2em;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+code:hover{
+    cursor: url("https://www.cursor.cc/cursor/631/63/cursor.png"), auto;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    cursor: pointer;
+    color: #00bfff;
+}
