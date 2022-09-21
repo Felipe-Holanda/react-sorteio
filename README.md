@@ -13,3 +13,6 @@ Gerar um sorteador de números aleatórios!
 - Receber nomes de pessoas e sortear um nome aleatório.
 
 > **Método:** Armazenar o conteúdo vindo de uma TextArea, dar Split neste texto, o convertendo assim, em uma array. E então sortear um nome de acordo com o indice na Array.
+
+
+### Acesse em: https://react-sorteio-roan.vercel.app/
